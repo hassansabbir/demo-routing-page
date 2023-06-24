@@ -1,0 +1,110 @@
+*{
+  font-family: 'Kanit'
+}
+
+.sidebar{
+  background-color: rgb(218, 235, 245);
+  width: 20vw;
+}
+
+.navbarTitle{
+  margin-left: 30px;
+  margin-bottom: 100px;
+}
+
+.sideOptions li{
+  list-style: none;
+  text-decoration: none;
+  margin: 25px;
+  font-weight: bold;
+}
+.sideOptions li a{
+  text-decoration: none;
+  color: black;
+}
+.sideOptions li a:active{
+  color: chocolate;
+}
+
+.main{
+  width: 80vw;
+  background-image: url("https://img.freepik.com/free-vector/v915_53876-174949.jpg?w=1480&t=st=1687589578~exp=1687590178~hmac=85d3f19b009f9fc0598f4ef0dff63a83508cbd71e26bb974dbb4e835a84be3f9");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 40px;
+}
+
+.main p{
+  font-size: 16px;
+  width: 70%;
+  margin: 0 0 0 auto;
+}
+
+.btn-container{
+  width: 70%;
+  margin: 0 0 0 auto;
+  margin-top: 30px;
+}
+
+.btn1{
+  font-weight: 400;
+  padding: 5px 20px;
+  border: 2px solid rgb(178, 178, 255);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(62, 62, 134);
+  color: white;
+}
+.btn2{
+  font-weight: 400;
+  padding: 5px 20px;
+  border: 2px solid rgb(178, 178, 255);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(187, 187, 236);
+  color: black;
+}
+
+.container{
+  display: flex;
+}
+
+.title{
+  text-align: center;
+  font-size: 35px;
+}
+
+.inputField{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.inputBox{
+  width: 400px;
+}
+
+.submitBtn{
+  margin-left: 315px;
+}
+
+
+.skill-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.skill {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 1px 1px 10px rgb(75, 74, 74);
+  padding: 10px 10px;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
