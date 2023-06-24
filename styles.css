@@ -78,9 +78,11 @@
 .inputField{
   display: flex;
   justify-content: space-between;
+  width: 500px;
   margin-left: 100px;
   margin-bottom: 10px;
 }
+
 
 .inputBox{
   width: 400px;
